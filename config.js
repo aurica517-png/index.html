@@ -33,7 +33,7 @@ window.SITE = {
 
   // ---- Hero -------------------------------------------------------
   hero: {
-    image: "https://i.postimg.cc/VvsQqz4m/dd7b6c62-2a3a-4fb0-bce5-92bf01bc1ace.jpg",
+    image: "https://i.postimg.cc/dVJFvmGd/Chat-GPT-Image-Oct-16-2026-02-17-07-AM.png",
     eyebrow: "Welcome to my world",
     title: "Hi, I’m Amber.",
     text: "Step behind the curtain for exclusive photos, behind-the-scenes moments and personal messages you won’t find anywhere else.",
