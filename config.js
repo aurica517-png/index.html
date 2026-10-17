@@ -70,10 +70,9 @@ window.SITE = {
     { src: "https://i.postimg.cc/zv2MTKym/Chat-GPT-Image-Oct-16-2026-02-06-37-AM.png", caption: "Matcha run" },
     { src: "https://i.postimg.cc/sxxHfxw9/Chat-GPT-Image-Oct-16-2026-02-13-46-AM.png", caption: "Evening out" },
     { src: "https://i.postimg.cc/VvsQqz4m/dd7b6c62-2a3a-4fb0-bce5-92bf01bc1ace.jpg", caption: "Golden hour" },
-    { src: "photo-03.jpg", caption: "After dark" },
     { src: "https://i.postimg.cc/Jh32P9sj/Chat-GPT-Image-Oct-16-2026-02-09-28-AM.png", caption: "On the road" },
     { src: "https://i.postimg.cc/TYyNZyyd/Chat-GPT-Image-Oct-16-2026-02-19-55-AM.png", caption: "Lazy Sunday" },
-    { src: "https://i.postimg.cc/15t145f2/Chat-GPT-Image-Oct-16-2026-02-28-42-AM.png, caption: "Quiet mood" },
+    { src: "https://i.postimg.cc/15t145f2/Chat-GPT-Image-Oct-16-2026-02-28-42-AM.png", caption: "Quiet mood" },
   ],
 
   // ---- FAQ --------------------------------------------------------
