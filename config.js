@@ -33,7 +33,7 @@ window.SITE = {
 
   // ---- Hero -------------------------------------------------------
   hero: {
-    image: "images/photo-05.jpg",
+    image: "https://i.postimg.cc/VvsQqz4m/dd7b6c62-2a3a-4fb0-bce5-92bf01bc1ace.jpg",
     eyebrow: "Welcome to my world",
     title: "Hi, I’m Amber.",
     text: "Step behind the curtain for exclusive photos, behind-the-scenes moments and personal messages you won’t find anywhere else.",
@@ -42,7 +42,7 @@ window.SITE = {
   // ---- About ------------------------------------------------------
   about: {
     title: "About Me",
-    image: "images/photo-04.jpg",
+    image: "https://i.postimg.cc/HLmScBBF/Chat-GPT-Image-Oct-16-2026-02-23-07-AM.png",
     paragraphs: [
       "I’m Amber — a lover of slow mornings, good coffee, golden-hour light and a little bit of mischief.",
       "My page is where I share the sides of me that never make it to Instagram: curated sets, candid moments and a real connection with the people who support me.",
@@ -67,13 +67,13 @@ window.SITE = {
   // ---- Gallery (add / remove / reorder freely) --------------------
   galleryTitle: "A Little Preview",
   gallery: [
-    { src: "images/photo-01.jpg", caption: "Matcha run" },
-    { src: "images/photo-06.jpg", caption: "Evening out" },
-    { src: "images/photo-05.jpg", caption: "Golden hour" },
+    { src: "https://i.postimg.cc/zv2MTKym/Chat-GPT-Image-Oct-16-2026-02-06-37-AM.png", caption: "Matcha run" },
+    { src: "https://i.postimg.cc/sxxHfxw9/Chat-GPT-Image-Oct-16-2026-02-13-46-AM.png", caption: "Evening out" },
+    { src: "https://i.postimg.cc/VvsQqz4m/dd7b6c62-2a3a-4fb0-bce5-92bf01bc1ace.jpg", caption: "Golden hour" },
     { src: "images/photo-03.jpg", caption: "After dark" },
-    { src: "images/photo-02.jpg", caption: "On the road" },
-    { src: "images/photo-07.jpg", caption: "Lazy Sunday" },
-    { src: "images/photo-04.jpg", caption: "Quiet mood" },
+    { src: "https://i.postimg.cc/Jh32P9sj/Chat-GPT-Image-Oct-16-2026-02-09-28-AM.png", caption: "On the road" },
+    { src: "https://i.postimg.cc/TYyNZyyd/Chat-GPT-Image-Oct-16-2026-02-19-55-AM.png", caption: "Lazy Sunday" },
+    { src: "https://i.postimg.cc/15t145f2/Chat-GPT-Image-Oct-16-2026-02-28-42-AM.png, caption: "Quiet mood" },
   ],
 
   // ---- FAQ --------------------------------------------------------
