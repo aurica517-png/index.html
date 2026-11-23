@@ -7,17 +7,17 @@ body {
   margin: 0;
   min-height: 100svh;
   color: #fff;
-  background: #241d1d;
+  background: #624e48;
   font-family: Arial, Helvetica, sans-serif;
 }
 body::before {
   content: "";
   position: fixed;
-  inset: 0;
+  inset: 0 42% 0 0;
   z-index: -1;
   background:
-    linear-gradient(#17131473, #17131480 46%, #1713149e),
-    url("/cleo-hero.jpg") center top / cover no-repeat;
+    linear-gradient(#17131445, #17131448 46%, #17131457),
+    url("/cleo-hero.jpg") center / contain no-repeat;
 }
 a { color: inherit; text-decoration: none; }
 button { font: inherit; }
@@ -26,8 +26,8 @@ a:focus-visible, button:focus-visible {
   outline-offset: 5px;
 }
 .page {
-  width: min(calc(100% - 56px), 580px);
-  margin: 0 auto;
+  width: min(calc(42% - 48px), 580px);
+  margin: 0 max(24px, calc((42% - 580px) / 2)) 0 auto;
   padding: clamp(28px, 2.45vw, 50px) 0 24px;
   text-align: center;
 }
@@ -99,11 +99,23 @@ footer {
   font-size: clamp(13px, .85vw, 17px);
   text-shadow: 0 2px 5px #151014c0;
 }
-@media (max-width: 900px) {
-  body::before { background-size: cover, auto max(100%, 1180px); }
-}
+
 @media (prefers-reduced-motion: reduce) {
   .membership { transition: none; }
 }
 .agegate{position:fixed;inset:0;z-index:10;display:grid;place-items:center;padding:24px;background:#170d13d9;backdrop-filter:blur(14px)}.agegate-box{width:min(100%,410px);padding:37px 28px;text-align:center;border:1px solid #6b3a4e;border-radius:26px;background:#2b1922;box-shadow:0 30px 100px #0006}.age-badge{color:var(--pink);font-weight:700;font-size:16px;border:1px solid var(--pink);border-radius:30px;display:inline-block;padding:8px 17px}.agegate h2{font-family:Georgia,serif;font-size:36px;margin:20px 0 12px}.agegate p{color:var(--muted);line-height:1.6;margin:0 0 25px}.gate-enter{width:100%;border:0;color:white;background:var(--pink);font-weight:700;border-radius:30px;padding:16px 12px;cursor:pointer}.gate-leave{display:inline-block;margin-top:20px;color:var(--muted);font-size:14px}
 .agegate { z-index: 10; }
+
+@media (max-width: 700px) {
+  body::before {
+    position: absolute;
+    inset: 0 0 auto;
+    height: min(129.87vw, 100svh);
+  }
+
+  .page {
+    width: min(calc(100% - 56px), 580px);
+    margin: 0 auto;
+    padding-top: calc(min(129.87vw, 100svh) + 24px);
+  }
+}
