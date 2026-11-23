@@ -17,7 +17,7 @@ body::before {
   z-index: -1;
   background:
     linear-gradient(#17131445, #17131448 46%, #17131457),
-    url("/cleo-hero.jpg") center bottom / contain no-repeat;
+    url("/cleo-hero.jpg") center top / contain no-repeat;
 }
 html::before {
   content: "";
@@ -117,7 +117,7 @@ footer {
 @media (max-width: 700px) {
   body::before {
     background-size: cover, 100% auto;
-    background-position: center, center bottom;
+    background-position: center, center top;
   }
 
   .page {
