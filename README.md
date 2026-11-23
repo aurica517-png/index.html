@@ -1,4 +1,4 @@
-# Amber — Official Page
+# Cleo — Official Page
 
 A classic, fast, single-page static website (no build step).
 
@@ -25,7 +25,7 @@ git init
 git add .
 git commit -m "Initial site"
 git branch -M main
-git remote add origin https://github.com/YOUR_USER/amber-site.git
+git remote add origin https://github.com/YOUR_USER/cleo-site.git
 git push -u origin main
 ```
 
