@@ -116,7 +116,7 @@ footer {
 
 @media (max-width: 700px) {
   body::before {
-    background-size: cover, 100% auto;
+    background-size: cover, 100% 100%;
     background-position: center, center top;
   }
 
